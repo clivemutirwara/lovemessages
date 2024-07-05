@@ -1,0 +1,146 @@
+body {
+    font-family: 'Lexend', sans-serif; /* Use Lexend font */
+    background: #EF88A6;
+    color: #333;
+    margin: 0;
+    padding: 40px; /* Increased padding for a more spaced-out look */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.0em;
+    color: #706496; /* Purple */
+    text-shadow: 2px 2px #EF88A6; /* Purple shadow with pink color */
+}
+
+#messages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    background: #706496; /* Purple */
+    color: #fff;
+    padding: 30px; /* Thick padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.message:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.message-number {
+    margin-right: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Zoom-out effect */
+.zoom-out {
+    transform: scale(0.95);
+}
+
+
+
+
+
+.message {
+    background: #706496; /* Purple */
+    color: #fff;
+    padding: 30px; /* Thick padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    transform-origin: center center;
+}
+
+.message:hover {
+    transform: scale(0.95); /* Zoom out slightly */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.message {
+    background: #706496; /* Purple */
+    color: #fff;
+    padding: 30px; /* Thick padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.message:hover {
+    transform: scale(0.95); /* Zoom out slightly */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.message-number {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    padding-right: 20px; /* Space between number and text */
+    flex-shrink: 0; /* Prevents the number from shrinking */
+}
+
+
+
+
+
+.message-text {
+    margin-top: 10px; /* Adjust spacing between number and text */
+    text-align: left; /* Align text to the left */
+}
+
+
+
+
+.message-text {
+    text-align: left; /* Align text to the left */
+    margin-top: auto; /* Push message text to the middle */
+}
+
+
+
+
+
+.tagline {
+    font-size: 1.2em;
+    font-weight: bold; 
+    color: white;
+    margin-bottom: 40px; /* Spacing below tagline */
+}
+
+
+
+
